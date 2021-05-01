@@ -37,7 +37,7 @@ The employeeAPI allows for scalability both vertically and horizontally as it co
 
 ## Limitations
 
-The major limitation in these RESTful API is that the authorization and authentication does not fully have a view and template name for functionalities around password reset, password confirm, password change etc. These can be addressed by creating an account app that is linked with it and caters for all these things. The new features will be available in v2 of this app.
+The major limitation in these RESTful API is that the authorization and authentication does not fully have a view and template name for functionalities around password reset, password confirm, password change etc. So for now, only superuser can carry out those operations for all users. These can be addressed by creating an account app that is linked with it and caters for all these things. The new features will be available in v2 of this app.
 
 ## Documentation
 
