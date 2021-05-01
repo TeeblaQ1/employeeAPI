@@ -22,6 +22,34 @@ employee, updating a specific employee and deleting Employee entities such as re
     ]
 }
 ```
+## Installation
+
+To install the Web API on your local machine, run the following commands(from your desired folder):
+```bash
+# Clone the git repo
+git clone https://github.com/TeeblaQ1/employeeAPI.git
+
+# Install requirements 
+# (this can be done directly or by first creating a virtual environment)
+pip install -r requirements.txt
+
+
+# (NOTE: The next set of commands must be executed at the level where the \
+# manage.py file is located.)
+# Create database (default SQLite) and migrate to add all apps to database
+python manage.py migrate
+
+# Make migrations to the entities app and migrate to database afterwards
+python manage.py makemigrations entities
+python manage.py migrate
+
+# Create superuser to login to admin page. (Fill in credentials as prompted)
+python manage.py createsuperuser
+
+# Run the server
+python manage.py runserver
+```
+
 ## Testing
 
 The application has been tested with the traditional ```python manage.py test``` to confirm that only logged in users can create, update or delete a post and that in fact, the changes made were exact using the methods in the TestCase class like the ```self.assertEqual``` method. 
