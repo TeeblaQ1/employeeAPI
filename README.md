@@ -49,6 +49,12 @@ python manage.py createsuperuser
 # Run the server
 python manage.py runserver
 ```
+You can now visit the localhost url (127.0.0.1:8000)
+
+```bash
+# To use a custom port, specify the port as shown below:
+python manage.py runserver <port>  # e.g python manage.py runserver 7500
+```
 
 ## Testing
 
