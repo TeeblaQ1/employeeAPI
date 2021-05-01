@@ -24,8 +24,8 @@ employee, updating a specific employee and deleting Employee entities such as re
 ```
 ## Testing
 
-The application has been tested to confirm that only logged in users can create, update or delete a post and that in fact, the changes made were exact using the ```self.assertEqual``` method. 
-The authentication and authorization were not tested since it uses already-tested third-party apps and frameworks.
+The application has been tested with the traditional ```python manage.py test``` to confirm that only logged in users can create, update or delete a post and that in fact, the changes made were exact using the methods in the TestCase class like the ```self.assertEqual``` method. 
+The authentication and authorization were not tested since it uses already-tested third-party apps and frameworks and we'd like to keep everything DRY.
 
 ## Security
 
