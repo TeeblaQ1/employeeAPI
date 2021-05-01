@@ -130,3 +130,5 @@ dmypy.json
 
 # Text backup files
 *.bak
+
+runtime.txt
