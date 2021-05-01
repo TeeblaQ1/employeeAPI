@@ -49,7 +49,8 @@ python manage.py runserver
 ## Deployment
 
 The employeeAPI has been deployed on [Heroku](https://heroku.com) and is available at [employeeAPI](https://employeewebapi.herokuapp.com/).
-Please carefully read documentations to know how best to navigate the RESTful API.
+Please carefully read documentations on the [homepage](https://employeewebapi.herokuapp.com/) to know how best to navigate the RESTful API.
+It is also worthy of note that the detailed view of each entity is generated using its unique employee_id (as opposed to traditional id) as you will find in the documentations.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
